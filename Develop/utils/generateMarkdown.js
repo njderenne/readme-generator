@@ -52,6 +52,7 @@ module.exports = generateMarkdown => {
   ## Questions
 
   ${generateMarkdown.github}
+  
   ${generateMarkdown.email}
   `
 };
