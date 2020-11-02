@@ -51,7 +51,7 @@ module.exports = generateMarkdown => {
 
   ## Questions
 
-  ${generateMarkdown.github}
+  [${generateMarkdown.github}](https://github.com/${generateMarkdown.github})
   
   ${generateMarkdown.email}
   `
